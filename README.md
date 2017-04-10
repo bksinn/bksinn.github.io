@@ -1,1 +1,0 @@
-# bksinn.github.io
