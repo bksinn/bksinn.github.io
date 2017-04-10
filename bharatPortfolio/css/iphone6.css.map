@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,sCAAsC;AAEtC,4BAA4B;AAC5B,sHAG0C;EACvC,gBAAgB,EAAE,GAAG;AAGxB,uCAAuC;AAEvC,4BAA4B;AAC5B,sHAG0C;EACvC,gBAAgB,EAAE,IAAI",
-"sources": ["iphone6.scss"],
-"names": [],
-"file": "iphone6.css"
-}
