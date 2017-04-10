@@ -1,0 +1,18 @@
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) { 
+ 	body {
+ 		color: #ff0000;
+ 	}
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 736px) and (min-device-width: 414px) and (-webkit-min-device-pixel-ratio: 3) { 
+  	body {
+  		color: #0000ff;
+  	}
+}
+

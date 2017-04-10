@@ -1,0 +1,16 @@
+/* ----------- iPhone 6 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+  	background: url("http://mockuphone.com/static/images/devices/apple-iphone6plus-silver-portrait.png") no-repeat center fixed;
+  	} 
+  }
+/* ----------- iPhone 6+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+  	background: url("http://img.diytrade.com/smimg/2223318/42857590-4020123-0/Wholesale_iPhone_6_PLUS_Clone_China_Mobile_Phone_5_5_Inch_HD_Screen_copy/e665.jpg") no-repeat center fixed
+  	} 
+  }
+
+/*# sourceMappingURL=iphone6.css.map */
