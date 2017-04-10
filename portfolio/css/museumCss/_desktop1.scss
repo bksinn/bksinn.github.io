@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1025px) and (max-width: 1260px) {
+
+  .wrapper {
+    margin: 3rem;
+  }
+
+  nav {
+    p {
+      padding: 0 0.75rem;
+    }
+  }
+
+    .wrapper-body{
+    float: none;
+    width: 100%;
+  }
+
+  .banner {
+
+      padding-bottom: 0;
+      height: 25%;
+
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .sideLinks {
+    display: none;
+  }
+  .side-links-bottom {
+  display: inline-block;
+  }
+
+  .grayBox {
+    bottom: 0%;
+    width: auto;
+    position: relative;
+  }
+
+  .benefitsDiv {
+    width: 100%;
+    position: relative;
+  }
+  footer {
+    position: relative;
+    margin-bottom: inherit;
+    
+    a {
+      padding: 1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1037px) {
+  .input_field {
+    width: 26rem !important;
+  }
+}
+
