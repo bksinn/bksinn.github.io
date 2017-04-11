@@ -60,6 +60,11 @@ nav {
     nav a:visited {
       color: #DE2E48; }
 
+input[type="text"] {
+  color: #ccc;
+  font-size: 14px;
+  font-style: italic; }
+
 .topForm {
   border-radius: 5px;
   float: right;
