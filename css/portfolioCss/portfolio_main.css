@@ -193,8 +193,15 @@ p {
 }
 
 @media only screen and (max-width: 667px) {
-	body {
-		background: url("http://images.all-free-download.com/images/graphicthumb/small_square_grid_background_vector_background_on_circular_elements_157843.jpg") no-repeat center fixed;
+	h1 {
+		font-size: 65px;
+	}
+
+	p {
+		font-size: 100px;
+		display: block;
+		position: relative;
+		bottom: 2rem;
 	}
 }
 
