@@ -1,7 +1,17 @@
 
 /* Keep CSS Styles alphabetized. Good practice. --> http://www.styleneat.com/index.php */
 
- 
+.project-div {
+    display: inline;
+
+    .hidden-projects-div {
+        /*display: none;  Need to change this later so it's a drop-down */
+        display: inline;
+    }
+
+
+    
+}
 
 .header-icons {
 
