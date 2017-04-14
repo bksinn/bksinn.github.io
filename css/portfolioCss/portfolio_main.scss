@@ -1,16 +1,22 @@
 
 /* Keep CSS Styles alphabetized. Good practice. --> http://www.styleneat.com/index.php */
 
-.header-icons:visited { color: inherit; }
  
-.header-icons:hover {
+
+.header-icons {
+
+    &:visited {
+        color: inherit;
+    }
+
+    &:hover {
         background-color: #000000 !important;
         color:white !important; 
         opacity: 0.2;
         padding: 20px;
         text-decoration: none;
     }
- 
+}
  
 /* img {
     border-radius: 50%;
