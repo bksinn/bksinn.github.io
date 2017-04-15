@@ -268,5 +268,17 @@ a:visited {
   .nav-links {
     font-size: 15px; } }
 /*1350 - 1051*/
+/* ----------- iPhone 6+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .nav-links .nav-box {
+    padding: 10px 0;
+    right: 0; }
+
+  .name h1 {
+    font-size: 30px; }
+
+  .nav-links {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
