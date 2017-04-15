@@ -248,9 +248,50 @@ nav {
  }
 
 
-@media only screen and (max-width: 667px) {
-    h1 {
-        font-size: 65px;
+@media only screen and (min-width: 1051px) and (max-width: 1350px) {
+    .projects {
+        width: 34%;
+        left: 0;
+    }
+
+    .tshirt-widget {
+        width: 25%;
     }
 }
+
+@media only screen and (max-width: 1050px) {
+    .projects {
+        width: 100%;
+        left: 0;
+    }
+
+    .tshirt-widget {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .nav-links {
+        .nav-box {
+            padding: 10px 0;
+            right: 0;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .name {
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .nav-links {
+        font-size: 15px;
+    }
+}
+
+
+/*1350 - 1051*/
 
