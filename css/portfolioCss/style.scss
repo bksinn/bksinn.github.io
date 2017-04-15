@@ -49,9 +49,9 @@ $footer-color: #4B4948;
 article { font-family: Helvetica, Arial, sans-serif; }
  
 body {
-    background: url("http://static.tumblr.com/1a5cc1d0e1c7f0dced04ddeb56df0be3/wbu4sfk/1Uwof0biz/tumblr_static_3dokueqingaowkk0s0o40kok4.jpg") no-repeat center fixed;
+    background: url("../../imgs/portfolioImgs/blurred-background1.jpg") no-repeat center fixed;
     background-attachment: scroll;
-    opacity: 0.75;
+    opacity: 1.0;
     max-width: 2000px;
     max-height: auto;
     display: inline;
@@ -109,7 +109,7 @@ footer {
 
 
 form { 
-    color: white;
+    color: rgba(255, 255, 255, 0.85);
 }
  
 .name {
@@ -170,11 +170,11 @@ label.form-label {
   }
 
   hr {
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.25);
   }
 
 p {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     font-family: 'Catamaran', Helvetica, Arial, sans-serif;
     position: relative;
     /* left: 4rem; */
@@ -216,7 +216,29 @@ nav {
     width: 25%;
     position: relative;
     left: 15%;
+    opacity: 0.85;
 
+ }
+
+ .overlay {
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    position: relative;
+    bottom: 2rem;
+    display: block;
+    opacity: 1;
+    transition: opacity 500ms ease;
+
+    p {
+        font-size: 25px;
+        color: rgba(255, 255, 255, 1);
+        padding: 2rem 0;
+        margin: 2rem 1rem;
+    }
+
+    &:hover {
+        opacity: 0;
+    }
  }
 
 .wrapper {
