@@ -344,6 +344,19 @@ nav {
     }
 }
 
+/* ----------- iPhone 5 ----------- */
+/* Portrait*/
+@media only screen and (max-width: 321px) {
+    .nav-links {
+        font-size: 10px;
+    }
+
+    .name {
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
 
 
 
