@@ -72,7 +72,7 @@ article {
 
 body {
   background: url("../../imgs/portfolioImgs/blurred-background1.jpg") no-repeat center fixed;
-  background-size: 100%;
+  /*background-size: 100%;*/
   background-attachment: scroll;
   max-width: 2000px;
   max-height: auto;
