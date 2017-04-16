@@ -72,8 +72,8 @@ article {
 
 body {
   background: url("../../imgs/portfolioImgs/blurred-background1.jpg") no-repeat center fixed;
+  background-size: 100%;
   background-attachment: scroll;
-  opacity: 1.0;
   max-width: 2000px;
   max-height: auto;
   display: inline;
@@ -176,7 +176,8 @@ label.form-label {
     clear: both; }
 
 hr {
-  border: 1px solid rgba(255, 255, 255, 0.25); }
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: none; }
 
 p {
   color: rgba(255, 255, 255, 0.5);
