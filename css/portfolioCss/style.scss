@@ -8,7 +8,7 @@
 $footer-color: #4B4948;
 
 .nav-links { 
-    font-family: 'Lato','Raleway', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', 'Raleway', Helvetica, Arial, sans-serif;
     font-size: 20px;
     float: right;
 
@@ -25,27 +25,27 @@ $footer-color: #4B4948;
         }
 
         &:hover {
-            color: black;
-            background: white;
+            
+            background: #fff;
+
+            .header-icons {
+                color: #000;
+            }
         }
     }
 }
 
-.header-icons {
+/*.header-icons {
 
     &:visited {
         color: inherit;
     }
 
-/*    &:hover {
-        background-color: #000000;
-        color:white ; 
-        opacity: 0.2;
-        text-decoration: none;
-    }*/
-}
+    &:hover {     
+        color: #000; 
+    }
+}*/
  
-
 article { font-family: Helvetica, Arial, sans-serif; }
  
 body {
@@ -213,13 +213,26 @@ nav {
  }
 
  .projects {
-    height: 40%;
+    height: 50%;
     width: 25%;
     position: relative;
     left: 15%;
     opacity: 0.85;
 
  }
+
+/*For cicular display*/
+/* .projects {
+     border-radius: 50% 50%;
+     box-sizing: border-box;
+     height: 300px;
+     left: 15%;
+     opacity: 0.85;
+     overflow: hidden;
+     position: relative;
+     text-align: center;
+     width: 300px;
+}*/
 
  .overlay {
     background: rgba(0, 0, 0, 0.75);
@@ -229,6 +242,22 @@ nav {
     display: block;
     opacity: 1;
     transition: opacity 500ms ease;
+
+
+/*For circular display :
+/*.overlay {
+     background: rgba(0, 0, 0, 0.75);
+     box-sizing: border-box;
+     display: block;
+     height: 100%;
+     left: 0;
+     opacity: 1;
+     padding: 7rem 1rem 0;
+     position: absolute;
+     top: 0;
+     transition: opacity 500ms ease;
+     width: 100%;*/
+
 
     p {
         font-size: 25px;
@@ -269,6 +298,24 @@ nav {
     float: left;
     width: 18%;
  }
+
+@media only screen and (max-height: 630px) {
+    .projects {
+        height: 65%;
+    }
+}
+
+@media only screen and (max-height: 530px) {
+    .projects {
+        height: 75%;
+    }
+}
+
+@media only screen and (max-height: 430px) {
+    .projects {
+        height: 100%;
+    }
+}
 
 
 @media only screen and (min-width: 1051px) and (max-width: 1350px) {
@@ -346,7 +393,7 @@ nav {
 
 /* ----------- iPhone 5 ----------- */
 /* Portrait*/
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 390px) {
     .nav {
         width: 95%;
     }
