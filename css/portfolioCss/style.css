@@ -118,7 +118,8 @@ a:hover, a:focus {
   font-size: 40px; }
 
 .masthead .intro-body .intro-text {
-  font-size: 18px; }
+  font-size: 18px;
+  color: #000; }
 
 @media (min-width: 768px) {
   .masthead {
