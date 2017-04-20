@@ -172,10 +172,24 @@ a {
       color: rgba(255, 255, 255, 1);
       padding: 2rem 0;
       margin: 2rem 1rem;
+      transition: opacity 500ms ease;
+
     }
 
-    &:hover {
+    .project-description {
       opacity: 0;
+      transition: opacity 500ms ease;
+}
+
+    &:hover {
+
+      p {
+        opacity: 0;
+      }
+
+      .project-description {
+        opacity: 1;
+      }
     }
 }
 

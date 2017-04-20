@@ -176,9 +176,15 @@ a:hover, a:focus {
     font-size: 25px;
     color: white;
     padding: 2rem 0;
-    margin: 2rem 1rem; }
-  .overlay:hover {
+    margin: 2rem 1rem;
+    transition: opacity 500ms ease; }
+  .overlay .project-description {
+    opacity: 0;
+    transition: opacity 500ms ease; }
+  .overlay:hover p {
     opacity: 0; }
+  .overlay:hover .project-description {
+    opacity: 1; }
 
 .wikipedia {
   background: url("../../imgs/portfolioImgs/wikipedia_api.png") no-repeat center;
