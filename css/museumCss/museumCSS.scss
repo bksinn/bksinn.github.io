@@ -94,9 +94,13 @@ nav {
   margin: 0 auto;
   color: $museumRed;
   cursor: pointer;
+
+  &:hover {
+    opacity: 0.85;
+  }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 1024px) {
   .fa {
     display: none!important;
   }

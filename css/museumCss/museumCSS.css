@@ -66,8 +66,10 @@ nav {
   margin: 0 auto;
   color: #DE2E48;
   cursor: pointer; }
+  .fa:hover {
+    opacity: 0.85; }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 1024px) {
   .fa {
     display: none !important; } }
 input[type="text"] {
