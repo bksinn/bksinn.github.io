@@ -1,112 +1,180 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Bharat Singh Portfolio</title>
-	<!--link rel="stylesheet" type="text/css" href="form.css"-->
-	<link rel="stylesheet" type="text/css" href="css/portfolioCss/style.css">
-	<link rel="stylesheet" type="text/css" href="css/portfolioCss/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-css/bootstrap.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Catamaran|Lato|Noto+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bharat Singh -- Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolioCss/style.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
 
 </head>
 
-<body>
+<body id="page-top">
 
-	<header>
-		<nav>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar fixed-top navbar-toggleable-md navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            Menu <i class="fa fa-bars"></i>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">BKS</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-			<div class="name">
-				<h1> BKS </h1>
-			</div>
+    <!-- Intro Header -->
+    <header class="masthead">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <h1 class="brand-heading">Bharat K Singh</h1>
+                        <p class="intro-text">front end developer</p>
+                        <a href="#projects" class="page-scroll">
+                            <i class="fa fa-angle-double-down fa-3x animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-			<div class="nav-links">
+    <!-- About Section -->
+    <section id="projects" class="container">
+        <div class="row">
+                <a href="http://s.codepen.io/bksinn/debug/RorMQe/jVMpogjKVxmk" class="project-imgs wikipedia">
+                    <div class="overlay">
+                        <p>Search field that utilizes Wikipedia's API</p>
+                    </div>
+                </a>
 
-				<div class="nav-box">
-					<a class="header-icons" href="htmlPages/form.html" target="_blank">Contact</a>
-				</div>
+                <a href="https://bksinn.github.io/museumPage.html" class="project-imgs museum">
+                    <div class="overlay">
+                       <p>From PNG to website. Fully responsive.</p> 
+                    </div>
+                </a>
 
-				<div class="nav-box">
-					<a class="header-icons" href="http://codepen.io/bksinn/" target="_blank">Projects</a>
-				</div>
-
-				<div class="nav-box">
-					<a class="header-icons" href="htmlPages/resume.html" target="_blank">Resume</a>
-				</div>
-
-<!-- 				<div class="hidden-projects-div">
-					<a class="header-icons" href="museumPage.html" target="_blank">Columbia Museum of Art</a>
-					<a class="header-icons" href="shirtWidget.html" target="_blank">T-Shirt Widget</a>
-				</div> -->
-				
-			</div>
-
-		</nav>
-	</header>
-
-	<div class ="main">
-		<!-- <p>Selected Work</p> -->
-
-
-		<hr>
-		<div class="wrapper"> 
-			<a class="projects code-pen" href="http://s.codepen.io/bksinn/debug/RorMQe/YvkgOPagoazk">
-				<div class="overlay">
-					<p>Search field that utilizes Wikipedia's API</p>
-				</div>
-			</a>
-
-			<a class="projects tshirt-widget" href="shirtWidget.html">
-				<div class="overlay">
-					<p>Dabbling with UI</p>
-				</div>
-			</a>
-
-			<a class="projects museum" href="museumPage.html">
-				<div class="overlay">
-					<p>From PNG to Website. Fully Responsive</p>
-				</div>
-			</a>
-		</div> 
-		<hr>
-
-
-		
-		
-	</div>
-	
-<!-- FORM WENT HERE -->
-
-	<footer>
-	
-		<div class="footer-content">
-
-			<a href="https://www.linkedin.com" target="_blank">
-				<i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
-			</a>
-
-			<a href="https://www.github.com" target="_blank">
-				<i class="fa fa-github fa-5x" aria-hidden="true"></i>
-			</a>
-
-			<a href="https://www.meetup.com" target="_blank">
-				<i class="fa fa-meetup fa-5x" aria-hidden="true"></i>
-			</a>
-
-			<a href="https://www.codepen.io" target="_blank">
-				<i class="fa fa-codepen fa-5x" aria-hidden="true"></i>
-			</a>
-
-		</div>
+                <a href="https://bksinn.github.io/shirtWidget.html" class="project-imgs tshirt">
+                    <div class="overlay">
+                        <p>Dabbling with UI</p>
+                    </div>
+                </a>
 
 
-	</footer>
+            <div class="col-lg-8 offset-md-2">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="resume" class="content-section text-center">
+        <div class="resume-section">
+            <div class="container">
+                <div class="col-lg-8 offset-md-2">
+                    <h2>Place Resume Here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 offset-md-2">
+                <h2>Place my contact info here.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter (use font awesome)</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github(use font awesome)</span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+(Use font awesome)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Bharat Kumar Singh 2017</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/portfolioJS/portfolio.min.js"></script>
+
 </body>
-
-<script type="text/javascript" src="js/portfolioJS/jquery-3.2.0.min.js"></script>
-<script type="text/javascript" src="js/portfolioJS/general.js"></script>
 
 </html>
