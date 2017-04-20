@@ -28,6 +28,7 @@ p {
   font-size: 16px;
   line-height: 1.5; }
   @media (min-width: 768px) {
+
     p {
       margin: 0 0 35px;
       font-size: 18px;
@@ -94,7 +95,7 @@ a {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../../imgs/portfolioImgs/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -116,9 +117,13 @@ a {
         font-weight: 100; 
         border-bottom: 1px solid #fff;
         border-top: 1px solid #fff;
-      }
+        } 
       .masthead .intro-body .intro-text {
-        font-size: 22px; } }
+        font-size: 22px;
+        color: #fff; 
+        }
+
+      }
 
 .btn-circle {
   width: 50px;
@@ -151,6 +156,7 @@ a {
 }
 
 .overlay {
+
     background: rgba(0, 0, 0, 0.75);
     height: 100%;
     position: relative;
@@ -198,7 +204,12 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+
+  a {
+    font-size: 20px;
+  } 
+}
 
 
 @media (min-width: 767px) {
