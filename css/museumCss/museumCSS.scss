@@ -88,6 +88,20 @@ nav {
 
 }
 
+.fa {
+  display: block!important;
+  width: 8%;
+  margin: 0 auto;
+  color: $museumRed;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 767px) {
+  .fa {
+    display: none!important;
+  }
+}
+
 input[type="text"] {
     color: #ccc;
     font-size: 14px;
