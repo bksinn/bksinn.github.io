@@ -3,9 +3,6 @@ body {
   height: 100%;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
-  background-attachment: fixed;
-  background-size: cover;
   background-color: black;
   position: relative; }
 
@@ -22,7 +19,7 @@ h6 {
   margin: 35px 0 0;
   text-transform: uppercase;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   letter-spacing: 1px; }
 
 p {
@@ -106,7 +103,7 @@ a:hover, a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  /*background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;*/
+  background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
   background-color: transparent;
   /*background-attachment: fixed;*/
   -webkit-background-size: cover;
@@ -129,7 +126,7 @@ a:hover, a:focus {
   .masthead {
     height: 100%;
     padding: 0;
-    border-bottom: 1px dotted white; }
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.5); }
 
   .masthead .intro-body .brand-heading {
     font-size: 75px;
@@ -238,7 +235,16 @@ a:hover, a:focus {
     padding: 100px 0; }
 
   .hide {
-    display: block; } }
+    display: block; }
+
+  body {
+    background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
+    background-attachment: fixed;
+    background-size: cover;
+    webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+    body .masthead {
+      background-color: transparent;
+      background: none; } }
 .btn {
   text-transform: uppercase;
   font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -296,9 +302,6 @@ img::selection {
 
 img::-moz-selection {
   background: transparent; }
-
-body {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
 
  /*!
 * Start Bootstrap - Grayscale v4.0.0-alpha (http://startbootstrap.com/template-overviews/grayscale)
