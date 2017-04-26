@@ -4,8 +4,7 @@ body {
   height: 100%;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
-    background-attachment: fixed;
-    background-size: cover;
+  background-attachment: fixed;
   color: white;
   background-color: rgba(0, 0, 0, 1);
   position: relative; 
@@ -263,6 +262,7 @@ a {
     }
 
   body {
+    background-size: cover;
     webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); 
 
   }
