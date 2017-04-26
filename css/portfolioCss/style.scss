@@ -137,7 +137,7 @@ a {
 
       }
 
-.btn-circle {
+/*.btn-circle {
   width: 50px;
   height: 50px;
   margin-top: 15px;
@@ -153,10 +153,14 @@ a {
   .btn-circle:hover, .btn-circle:focus {
     outline: none;
     color: white;
-    background: rgba(255, 255, 255, 0.1); }
+    background: rgba(255, 255, 255, 0.1); }*/
 
 .fa-angle-double-down/*:before*/ {
   color: rgba(0,0,0,0.5)!important;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.75)!important;
+  }
 }
 
 
