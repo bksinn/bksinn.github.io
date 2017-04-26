@@ -114,10 +114,12 @@ a {
     display: table-cell;
     vertical-align: middle; }
     .masthead .intro-body .brand-heading {
-      font-size: 40px; }
+      font-size: 45px; 
+      border-bottom: 2px dashed rgba(0, 0, 0, 0.5);
+    }
     .masthead .intro-body .intro-text {
-      font-size: 18px;
-      color: #000; 
+      font-size: 25px;
+      color: #fff; 
     }
   @media (min-width: 768px) {
     .masthead {
