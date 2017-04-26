@@ -54,9 +54,13 @@ a:hover, a:focus {
 
 #mainNav .navbar-toggler {
   color: white;
-  font-size: 14px;
-  border: 1px solid white;
-  padding: 11px; }
+  font-size: 40px;
+  /*border: 1px solid white;*/
+  border-color: transparent;
+  padding: 0 10px; }
+  #mainNav .navbar-toggler:hover {
+    cursor: pointer;
+    opacity: 0.33; }
 
 #mainNav .navbar-brand {
   font-weight: 700; }
