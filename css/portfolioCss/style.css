@@ -2,6 +2,9 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
   background-color: black;
   position: relative; }
@@ -103,7 +106,7 @@ a:hover, a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
+  /*background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;*/
   background-color: transparent;
   /*background-attachment: fixed;*/
   -webkit-background-size: cover;
@@ -137,23 +140,6 @@ a:hover, a:focus {
   .masthead .intro-body .intro-text {
     font-size: 22px;
     color: #fff; } }
-/*.btn-circle {
-  width: 50px;
-  height: 50px;
-  margin-top: 15px;
-  padding: 7px 0;
-  border: 2px solid white;
-  border-radius: 100% !important;
-  font-size: 26px;
-  color: white;
-  background: transparent;
-  -webkit-transition: background .3s ease-in-out;
-  -moz-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out; }
-  .btn-circle:hover, .btn-circle:focus {
-    outline: none;
-    color: white;
-    background: rgba(255, 255, 255, 0.1); }*/
 .fa-angle-double-down {
   color: rgba(0, 0, 0, 0.5) !important; }
   .fa-angle-double-down:hover {
@@ -238,13 +224,7 @@ a:hover, a:focus {
     display: block; }
 
   body {
-    background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
-    background-attachment: fixed;
-    background-size: cover;
-    webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
-    body .masthead {
-      background-color: transparent;
-      background: none; } }
+    webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); } }
 .btn {
   text-transform: uppercase;
   font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
