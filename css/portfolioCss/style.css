@@ -3,6 +3,9 @@ body {
   height: 100%;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
+  background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: black;
   position: relative; }
 
@@ -47,7 +50,7 @@ a:hover, a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black; }
+  background-color: rgba(0, 0, 0, 0.5); }
 
 #mainNav .navbar-toggler {
   color: white;
@@ -103,8 +106,9 @@ a:hover, a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  /*background: url(../../imgs/portfolioImgs/malibu.jpg) no-repeat bottom center scroll;*/
+  background-color: transparent;
+  /*background-attachment: fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -124,7 +128,8 @@ a:hover, a:focus {
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
-    padding: 0; }
+    padding: 0;
+    border-bottom: 1px dotted white; }
 
   .masthead .intro-body .brand-heading {
     font-size: 75px;
@@ -154,6 +159,9 @@ a:hover, a:focus {
   color: white;
   background: rgba(255, 255, 255, 0.1); }
 
+.fa-angle-double-down {
+  color: rgba(0, 0, 0, 0.5) !important; }
+
 .content-section {
   padding-top: 100px; }
 
@@ -161,7 +169,7 @@ a:hover, a:focus {
   height: 244px;
   width: 100%;
   float: left;
-  border: 2px solid white;
+  border: 1px solid white;
   margin: 2px 0; }
 
 .overlay {
@@ -208,8 +216,8 @@ a:hover, a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url("../../imgs/portfolioImgs/malibu3.jpg") no-repeat center center scroll;
-  background-color: black;
+  /*background: url("../../imgs/portfolioImgs/malibu3.jpg") no-repeat center center scroll;*/
+  background-color: transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -266,7 +274,8 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0; } }
 footer {
-  padding: 50px 0; }
+  padding: 50px 0;
+  background-color: black; }
 
 footer p {
   font-size: 14px;
