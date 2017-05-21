@@ -298,7 +298,7 @@ Main components
   margin-top: -12px; }
 
 .cd-timeline-img.cd-picture {
-  background: #fff; }
+  background: #42DCA3; }
 
 .cd-timeline-img.cd-movie {
   background: #000; }
@@ -378,7 +378,7 @@ Main components
 
 .cd-timeline-content h2 {
   color: #303e49;
-  font-size: 25px; }
+  font-size: 20px; }
 
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
