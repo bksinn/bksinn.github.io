@@ -124,10 +124,12 @@ a {
     .masthead .intro-body .brand-heading {
       font-size: 45px; 
       border-bottom: 2px dashed rgba(0, 0, 0, 0.5);
+      text-shadow: 0px 0px 3px #000;
     }
     .masthead .intro-body .intro-text {
       font-size: 25px;
       color: #fff; 
+      text-shadow: 0px 0px 3px #000;
     }
   @media (min-width: 768px) {
     .masthead {
@@ -144,6 +146,7 @@ a {
       .masthead .intro-body .intro-text {
         font-size: 22px;
         color: #fff; 
+        text-shadow: 0px 0px 3px #000;
         }
 
       }
