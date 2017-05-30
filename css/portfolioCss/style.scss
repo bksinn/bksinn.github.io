@@ -171,7 +171,7 @@ a {
     width: 100%;
     float: left;
     border: 1px solid white;
-    margin: 2px 0;
+    margin: 10px 0;
 }
 
 .overlay {
@@ -534,7 +534,8 @@ Main components
     top: -25px;
     font-size: 16px;
     font-size: 2rem;
-    color: #000;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
