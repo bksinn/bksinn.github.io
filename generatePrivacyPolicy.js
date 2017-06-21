@@ -2,7 +2,6 @@ var contentManagement = {
     PlaceholderClassName: '.content-management-placeholder',
     pageHasContent: function () {
         console.log(JSON.stringify($(contentManagement.PlaceholderClassName)) + ": " + $(contentManagement.PlaceholderClassName).length);
-        console.log("butthole");
         return $(contentManagement.PlaceholderClassName).length;
     },
     getContent: function (region, contenttype) {
