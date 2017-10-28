@@ -339,7 +339,7 @@ section {
 
 /*Home page*/
 .header {
-  background-image: url(../images/malibu.jpg);
+  background-image: url(../images/malibu-compressor.jpg);
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -357,6 +357,10 @@ section {
   display: table-cell;
   vertical-align: middle; }
 
+@media (max-width: 500px) {
+  .intro {
+    vertical-align: 0;
+    padding-top: 45%; } }
 .header h1 {
   margin: 0; }
 
@@ -649,9 +653,11 @@ section {
   transition: opacity 500ms ease; }
 .contact-overlay:hover h3 {
   opacity: 1;
-  font-size: 25px; }
+  transform: scale(1.5);
+  transition: transform 500ms ease; }
 .contact-overlay:hover .fa {
-  font-size: larger; }
+  transform: scale(1.5);
+  transition: transform 500ms ease; }
 
 .tech-sentence {
   font-weight: bold; }
