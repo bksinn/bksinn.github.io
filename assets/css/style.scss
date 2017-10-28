@@ -757,6 +757,24 @@ section{
 
 }
 
+.contact-overlay {
+
+	&:hover {
+		.vira-card p {
+			opacity: 0.35;
+			transition: opacity 500ms ease;
+		}
+
+		h3 {
+			opacity: 1;
+			font-size: 25px;
+		}
+		.fa {
+			font-size: larger;
+		}
+	}
+}
+
     .tech-sentence {
       //background-color: #fff;
       font-weight: bold;
