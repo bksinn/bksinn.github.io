@@ -1,274 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
+        <title>Bharat K. Singh | Portfolio</title>
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo.png"/>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
 
-    <title>Bharat Singh -- Portfolio</title>
+        <link href="assets/css/owl.carousel.css" rel="stylesheet">
+        <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/magnific-popup.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
-    <link href="css/portfolioCss/style.css" rel="stylesheet">
-
-    <!-- Temporary navbar container fix -->
-    <style>
-    .navbar-toggler {
-        z-index: 1;
-    }
-    
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
-        }
-    }
-    </style>
-
-</head>
-
-<body id="page-top">
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar fixed-top navbar-toggleable-md navbar-light">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="container">
-            <a class="navbar-brand" href="#page-top">BKS</a>
-            <div class="collapse navbar-collapse" id="navbarExample">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resume">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+        <link href="assets/css/style.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="menu-item" class="menu-item hide-menu">
+            <div class="container">
+                <ul>
+                    <a href="index.html"><li>home</li></a>
+                    <a href="#resume"><li>resume</li></a> 
+                    <!--<a href="#expertise"><li>expertise</li></a>-->
+                    <a href="#projects"><li>projects</li></a>
+                    <!--<a href="#team"><li>team</li></a>-->
+                    <a href="#contact"><li>contact</li></a>
+                    <!--<a href="elements.html"><li>Elements</li></a>-->
                 </ul>
             </div>
         </div>
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="masthead">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <h1 class="brand-heading">Bharat K Singh</h1>
-                        <p class="intro-text">front end developer</p>
-                        <a href="#projects" class="page-scroll">
-                            <i class="fa fa-angle-double-down fa-5x animated btn-circle"></i>
-                        </a>
+        <div class="main">
+            <header class="bg-img header">
+                <nav class="navbar navbar-default navbar-vira">
+                    <div class="container">
+                        <div class="navigation-bar">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            BKS
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <div class="menu m">
+                                        <a href="#"><span class="ion-navicon _ion-android-menu"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="intro-box">
+                            <div class="intro">
+                                
+                                <h1 class="">Bharat K Singh</h1>
+                                    <div class="">
+                                        <p>front end <span id="type"></span></p>
+                                    </div>
+                                <a 
+                                class="btn vira-btn" 
+                                href="#projects">
+                                Discover <span class="hidden-arrow"><i class="fa fa-arrow-down" aria-hidden="true"></i></span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </header>
-    
-    <!-- About Section -->
-    <section id="projects" class="container">
-        <div class="row">
-            <h3>Selected work</h3>
-                <a href="https://bstf-project.github.io/findmd" target="_blank" class="project-imgs better-doctor">
-                    <div class="overlay">
-                        <p>Interactive map that displays nearby doctor offices.</p>
-                        <h3 class="project-description title-description">Find MD</h3>
-                        <p class="project-description hide">A clear user interface that displays doctor offices within a specified radius of a user's geolocation. User has options to additionally call an office in real time or search a different location anywhere in the United States. <span class="tech-sentence">Technologies used: HTML, CSS/SASS, Bootstrap, Javascript, React.js, Leaflet.js, BetterDoctorAPI</span>
-                        </p>
-                        <p class="project-description hide">Click to view live</p>
+            </header>
+            <section id="projects" class="work section">
+                <div class="container">
+                    <h2 class="title">Selected work</h2>
+                    <div id="workstation-slider" class="owl-carousel">
+                        <div class="item">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <a href="https://bstf-project.github.io/findmd" title="FindMD" target="_blank" class="overlay">
+                                        <img class="img-responsive" src="assets/images/betterdoctor2_image.png" alt="FindMD">
+                                        <p class="project-description">View live <span><i class="fa fa-external-link" aria-hidden="true"></i></span></p>
+                                    </a>
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Find MD</h3>
+                                    <p style="text-align: left;">A clear user interface that displays doctor offices within a specified radius of a user's geolocation.</p>
+                                    <p style="text-align: left;">User has options to additionally call an office in real time or search a different location anywhere in the United States.</p>
+                                    <p style="text-align: left;"><span class="tech-sentence">Technologies used: HTML, CSS/SASS, Bootstrap, Javascript, React.js, Leaflet.js, BetterDoctorAPI</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <a href="http://codepen.io/bksinn/full/RorMQe/" title="Search Wikipedia" target="_blank" class="overlay">
+                                        <img class="img-responsive" src="assets/images/wikipedia_api.png" alt="FindMD">
+                                        <p class="project-description">View live <span><i class="fa fa-external-link" aria-hidden="true"></i></span></p>
+                                    </a>
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Search Wikipedia</h3>
+                                    <p style="text-align: left;">Very mininmalist layout that calls out to Wikipedia's public API and returns results within the page.</p>
+                                    <p style="text-align: left;" class="tech-sentence"> Technologies used: HTML, CSS, Bootstrap, Javascript, JSON, API, Jquery, AJAX</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <a href="https://bksinn.github.io/museumPage.html" title="Columbia Museum of Art" target="_blank" class="overlay">
+                                        <img class="img-responsive" src="assets/images/museum_image.png" alt="Columbia Museum of Art">
+                                        <p class="project-description">View live <span><i class="fa fa-external-link" aria-hidden="true"></i></span></p>
+                                    </a>                                    
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Columbia Museum of Art</h3>
+                                    <p style="text-align: left">Our first project at The Iron Yard. We were given mockups and tasked with making a responsive website.<p> 
+                                    <p style="text-align: left" class="tech-sentence">Technologies used: HTML, CSS/SASS, Responsive Web Design</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <a href="https://bksinn.github.io/shirtWidget.html" title="T-Shirt Widget" target="_blank" class="overlay">
+                                        <img class="img-responsive" src="assets/images/tshirts.png" alt="T-Shirt Widget">
+                                        <p class="project-description">View live <span><i class="fa fa-external-link" aria-hidden="true"></i></span></p>
+                                    </a>                                      
 
-                       
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Basic T-Shirt Widget</h3>
+                                    <p style="text-align: left">Created a user interface for a mock online shirt store.</p> 
+                                    <p style="text-align: left;" class="tech-sentence"> Technologies used: HTML, CSS/SASS, Responsive Web Design, UI/UX </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </a>
+                </div>
+            </section>
+            <section id="resume" class="about section">
+                <h2>Work Timeline</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <!--<h2 class="title">About agency</h2>
+                            <p>
+                                Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club met zich meebrengt. Onze enige missie is dat jij de best geklede man van de omgeving bent. Laat gratis een op eden box samenstellen door je personal shopper en betaal. 
+                            </p>
+                            <img src="assets/images/signature.png">
+                            <span>Vira Studio-ceo</span>-->
+                            <div class="entries">
+                                <!--<div class="entry">
+                                    <div class="title">2011</div>
+                                    <div class="body">
+                                    <p>Neque sunt voluptatibus repellat pariatur ut enim. Eveniet rerum suscipit eveniet amet dignissimos. Doloremque et distinctio quod molestiae ut.</p>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">2012</div>
+                                    <div class="body">
+                                    <p>Quo nobis cumque dolor iure voluptatem voluptatem alias soluta.</p>
+                                    </div>
+                                </div>-->
+                                <div class="entry">
+                                    <div class="title big">May 2013</div>
+                                    <div class="body">
+                                    <h3>College of Charleston</h3>
+                                    <p>Bachelor's Degree, Chemistry</p>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">August 2013</div>
+                                    <div class="body">
+                                    <h3>BASF</h3>
+                                    <p>QC Analyst</p>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">Jan 2014</div>
+                                    <div class="body">
+                                    <h3>The Los Angeles Family Institute- Los Angeles, CA</h3>
+                                    <p>Systems Analyst</p>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title big">Jan 2015- July 2016</div>
+                                    <div class="body">
+                                    <h3>The Melrose Community Health Clinic- Los Angeles, CA</h3>
+                                    <p>Dir of Lab Services</p>
+                                    </div>
+                                </div>
+                                <div class="entry">
+                                    <div class="title">Feb 2017</div>
+                                    <div class="body">
+                                    <h3>The Iron Yard Academy</h3>
+                                    <p>Front End Engineering.</p>
+                                    <p>Full immersive accelerator program with a focus on modern web technologies and industry best practices</p>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="purpose section">
+                <div class="container">
+                    <h2 class="title">What we do</h2>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <div class="card-icon">
+                                        <span class="fa fa-diamond" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Digital Design</h3>
+                                    <p>
+                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club met zichlaim meebrengt. Onze enige missiede
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <div class="card-icon">
+                                        <span class="fa fa-cogs" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Web Development</h3>
+                                    <p>
+                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club met zichlaim meebrengt. Onze enige missiede
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <div class="card-icon">
+                                        <span class="fa fa-bicycle" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Digital Marketing</h3>
+                                    <p>
+                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club met zichlaim meebrengt. Onze enige missiede
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--<section id="expertise" class="expert">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 bg-img">
+                            <div></div>
+                        </div>
+                        <div class="col-sm-5 section">
+                            <h2 class="title">Responsive design expert</h2>
+                            <div id="expert-slider" class="owl-carousel">
+                                <div class="item">
+                                    <p>
+                                        Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall proposition. Organically grow the holistic world view of disruptiveinnovationvia workplace diversity and empowerment.
+                                    </p>
+                                </div>
+                                <div class="item">
+                                    <p>
+                                        Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>-->
+            <section class="vira-quote section bg-img">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img class="quote" src="assets/images/quote.png">
+                           <p>
+                               A user interface is like a joke. If you have to explain it, it’s not that good.
+                           </p>
+                           <p class="author">Martin leBlance, Iconfinder</p>
+                           <img src="assets/images/mouse.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
             
-                <a href="http://codepen.io/bksinn/full/RorMQe/" target="_blank" class="project-imgs wikipedia">
-                    <div class="overlay">
-                        <p>Search field that utilizes Wikipedia's API</p>
-                        <h3 class="project-description title-description">Search Wikipedia</h3>
-                        <p class="project-description hide">Very mininmalist layout that calls out to Wikipedia's public API and returns results within the page.<span class="tech-sentence"> Technologies used: HTML, CSS, Bootstrap, Javascript, JSON, API, Jquery, AJAX</span>
-                        </p>
-                        <p class="project-description hide">Click to view live</p>
-
-                       
+            <!-- <section class="watch bg-img">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span>Watch showreel</span>
+                            <a class="popup-youtube btn" href="https://www.youtube.com/watch?v=4KRHIbsl8BE"><span class="fa fa-play"></span></a>
+                            <span>with us</span>
+                        </div>
                     </div>
-                </a>
-
-                <a href="https://bksinn.github.io/museumPage.html" target="_blank" class="project-imgs museum">
-                    <div class="overlay">
-                        <p>From PNG to website. Fully responsive.</p>
-                        <h3 class="project-description title-description">Columbia Museum of Art</h3>
-                        <p class="project-description hide">Our first project at The Iron Yard. We were given mockups and tasked with making a responsive website. <span class="tech-sentence">Technologies used: HTML, CSS/SASS, Responsive Web Design</span>
-                        </p>
-                        <p class="project-description hide">Click to view live</p> 
+                </div>
+            </section> -->
+            <!-- <section id="team" class="team section">
+                <div class="container">
+                    <h2 class="title">Our team members</h2>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <img class="img-responsive" src="assets/images/8.jpg">
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Pink Floyd</h3>
+                                    <p>
+                                       Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club 
+                                    </p>
+                                    <div class="social-icons">
+                                        <ul>
+                                            <a href="#"><li><span class="ion-social-facebook"></span></li></a>
+                                            <a href="#"><li><span class="ion-social-twitter"></span></li></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <img class="img-responsive" src="assets/images/9.jpg">
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Eric Clapton</h3>
+                                    <p>
+                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club 
+                                    </p>
+                                    <div class="social-icons">
+                                        <ul>
+                                            <a href="#"><li><span class="ion-social-facebook"></span></li></a>
+                                            <a href="#"><li><span class="ion-social-twitter"></span></li></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                    <img class="img-responsive" src="assets/images/10.jpg">
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Elton Jhon</h3>
+                                    <p>
+                                        Complimenten, bewonderend gefluit en lonkende blikken zijn enkele risico’s die The Garment Club 
+                                    </p>
+                                    <div class="social-icons">
+                                        <ul>
+                                            <a href="#"><li><span class="ion-social-facebook"></span></li></a>
+                                            <a href="#"><li><span class="ion-social-twitter"></span></li></a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </a>
-
-                <a href="https://bksinn.github.io/shirtWidget.html" target="_blank" class="project-imgs tshirt">
-                    <div class="overlay">
-                        <p>Dabbling with UI</p>
-                        <h3 class="project-description title-description">T-Shirt Widget</h3>
-                        <p class="project-description hide">Created a user interface for a mock online shirt store. <span class="tech-sentence"> Technologies used: HTML, CSS/SASS, Responsive Web Design, UI/UX </span>
-                        </p>
-                        <p class="project-description hide">Click to view live</p>
-                        
+                </div>
+            </section> -->
+            <!-- <section class="subscribe section bg-img">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Subscribe to our newsletter to get update</p>
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="user-email" placeholder="Write your email here....">
+                                </div>
+                                <button type="submit" class="btn vira-btn">Send me</button>
+                            </form>
+                        </div>
                     </div>
-                </a>
-
-
-            <div class="col-lg-8 offset-md-2">
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="resume" class="content-section text-center">
-        <div class="resume-section">
-            <div class="container">
-                <div class="col-lg-8 offset-md-2">
-                    <h2>Resume</h2>
-                        <section id="cd-timeline" class="cd-container">
-                                <div class="cd-timeline-block">
-                                    <div class="cd-timeline-img cd-picture">
-                                      
-                                    </div> <!-- cd-timeline-img -->
-
-                                    <div class="cd-timeline-content">
-                                        <h2>The Iron Yard Academy</h2>
-                                        <p>Front End Engineering.</p>
-                                        <p>Full immersive accelerator program with a focus on modern web technologies and industry best practices</p>
-                                        <span class="cd-date">Feb 2017</span>
-                                    </div> <!-- cd-timeline-content -->
-                                </div> <!-- cd-timeline-block -->
-
-                                <div class="cd-timeline-block">
-                                    <div class="cd-timeline-img cd-movie">
-                                        
-                                    </div> <!-- cd-timeline-img -->
-
-                                    <div class="cd-timeline-content">
-                                        <h2>The Melrose Community Health Clinic- Los Angeles, CA</h2>
-                                        <p>Dir of Lab Services</p>
-                                        <span class="cd-date">2015-2016</span>
-                                    </div> <!-- cd-timeline-content -->
-                                </div> <!-- cd-timeline-block -->
-
-                                <div class="cd-timeline-block">
-                                    <div class="cd-timeline-img cd-picture">
-                                       
-                                    </div> <!-- cd-timeline-img -->
-
-                                    <div class="cd-timeline-content">
-                                        <h2>The Los Angeles Family Institute- Los Angeles, CA</h2>
-                                        <p>Systems Analyst</p>
-                                       
-                                        <span class="cd-date">2014</span>
-                                    </div> <!-- cd-timeline-content -->
-                                </div> <!-- cd-timeline-block -->
-
-                                <div class="cd-timeline-block">
-                                    <div class="cd-timeline-img cd-movie">
-                                       
-                                    </div> <!-- cd-timeline-img -->
-
-                                    <div class="cd-timeline-content">
-                                        <h2>BASF</h2>
-                                        <p>QC Analyst</p>
-                               
-                                        <span class="cd-date">2013</span>
-                                    </div> <!-- cd-timeline-content -->
-                                </div> <!-- cd-timeline-block -->
-
-                                <div class="cd-timeline-block">
-                                    <div class="cd-timeline-img cd-picture">
-                                        
-                                    </div> <!-- cd-timeline-img -->
-
-                                    <div class="cd-timeline-content">
-                                        <h2>College of Charleston</h2>
-                                        <p>Bachelor's Degree, Chemistry</p>
-                                        <span class="cd-date">2013</span>
-                                    </div> <!-- cd-timeline-content -->
-                                </div> <!-- cd-timeline-block -->
-
-                            </section> <!-- cd-timeline -->                    
-
-                    <a href="htmlPages/BharatSingh-Resume.pdf" target="_blank">Click to view and/or download pdf version</a>
-                    
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 offset-md-2">
-                <h2>Contact me.</h2>
-                <div class="contact-icon phone">
-                    <a href="tel:8037470640">
-                        <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
-                        <p>By phone</p>
-                    </a>
+            </section> -->
+            <section id="contact" class="contact section">
+                <div class="container">
+                    <h2 class="title">Drop us a line</h2>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                        <span class="fa fa-map-o" aria-hidden="true"></span>
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Address</h3>
+                                    <p>
+                                        Level 5, 25 pitt st, US
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                        <span class="fa fa-phone" aria-hidden="true"></span>
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Phone</h3>
+                                    <p>
+                                        +555 211 3747
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="vira-card">
+                                <div class="vira-card-header">
+                                        <span class="fa fa-paper-plane" aria-hidden="true"></span>
+                                </div>
+                                <div class="vira-card-content">
+                                    <h3>Email</h3>
+                                    <p>
+                                        hey@themewagon.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="social-icons">
+                                <ul>
+                                    <a href="#"><li><span class="ion-social-facebook"></span></li></a>
+                                    <a href="#"><li><span class="ion-social-twitter"></span></li></a>
+                                    <a href="#"><li><span class="ion-social-pinterest"></span></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-icon email">
-                    <a href="mailto:bksingh@g.cofc.edu?Subject=Great to meet you">
-                        <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
-                        <p>By email</p>
-                    </a>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p> &copy Bharat Kumar Singh 2017</p>
+                        </div>
+                    </div>
                 </div>
-
-                <ul class="list-inline banner-social-buttons">
-                    <li class="list-inline-item">
-                        <a href="https://github.com/bksinn"><i class="fa fa-github fa-fw fa-3x"></i> <span class="network-name"></span></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://meetup.com"><i class="fa fa-meetup fa-fw fa-3x"></i> <span class="network-name"></span></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.linkedin.com/in/bharat-singh-31881089/"><i class="fa fa-linkedin fa-fw fa-3x"></i> <span class="network-name"></span></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="http://codepen.io/bksinn/"><i class="fa fa-codepen fa-fw fa-3x"></i> <span class="network-name"></span></a>
-                    </li>
-                </ul>
-            </div>
+            </footer>
         </div>
-    </section>
+<!-- <div class='center'>
+    Hello, <span id="type"></span>
+</div> -->
+        <script src="assets/js/jquery-3.1.1.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="https://use.fontawesome.com/55b73bf748.js"></script>
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script type="text/javascript">
+            //Typed.js plugin
+            !function(t){"use strict";var s=function(s,o){this.el=t(s),this.options=t.extend({},t.fn.typed.defaults,o),this.isInput=this.el.is("input"),this.attr=this.options.attr,this.showCursor=this.isInput?!1:this.options.showCursor,this.elContent=this.attr?this.el.attr(this.attr):this.el.text(),this.contentType=this.options.contentType,this.typeSpeed=this.options.typeSpeed,this.startDelay=this.options.startDelay,this.backSpeed=this.options.backSpeed,this.backDelay=this.options.backDelay,this.strings=this.options.strings,this.strPos=0,this.arrayPos=0,this.stopNum=0,this.loop=this.options.loop,this.loopCount=this.options.loopCount,this.curLoop=0,this.stop=!1,this.cursorChar=this.options.cursorChar,this.build()};s.prototype={constructor:s,init:function(){var t=this;t.timeout=setTimeout(function(){t.typewrite(t.strings[t.arrayPos],t.strPos)},t.startDelay)},build:function(){this.showCursor===!0&&(this.cursor=t('<span class="typed-cursor">'+this.cursorChar+"</span>"),this.el.after(this.cursor)),this.init()},typewrite:function(t,s){if(this.stop!==!0){var o=Math.round(70*Math.random())+this.typeSpeed,e=this;e.timeout=setTimeout(function(){var o=0,i=t.substr(s);if("^"===i.charAt(0)){var r=1;/^\^\d+/.test(i)&&(i=/\d+/.exec(i)[0],r+=i.length,o=parseInt(i)),t=t.substring(0,s)+t.substring(s+r)}if("html"===e.contentType){var n=t.substr(s).charAt(0);if("<"===n||"&"===n){var a="",h="";for(h="<"===n?">":";";t.substr(s).charAt(0)!==h;)a+=t.substr(s).charAt(0),s++;s++,a+=h}}e.timeout=setTimeout(function(){if(s===t.length){if(e.options.onStringTyped(e.arrayPos),e.arrayPos===e.strings.length-1&&(e.options.callback(),e.curLoop++,e.loop===!1||e.curLoop===e.loopCount))return;e.timeout=setTimeout(function(){e.backspace(t,s)},e.backDelay)}else{0===s&&e.options.preStringTyped(e.arrayPos);var o=t.substr(0,s+1);e.attr?e.el.attr(e.attr,o):e.isInput?e.el.val(o):"html"===e.contentType?e.el.html(o):e.el.text(o),s++,e.typewrite(t,s)}},o)},o)}},backspace:function(t,s){if(this.stop!==!0){var o=Math.round(70*Math.random())+this.backSpeed,e=this;e.timeout=setTimeout(function(){if("html"===e.contentType&&">"===t.substr(s).charAt(0)){for(var o="";"<"!==t.substr(s).charAt(0);)o-=t.substr(s).charAt(0),s--;s--,o+="<"}var i=t.substr(0,s);e.attr?e.el.attr(e.attr,i):e.isInput?e.el.val(i):"html"===e.contentType?e.el.html(i):e.el.text(i),s>e.stopNum?(s--,e.backspace(t,s)):s<=e.stopNum&&(e.arrayPos++,e.arrayPos===e.strings.length?(e.arrayPos=0,e.init()):e.typewrite(e.strings[e.arrayPos],s))},o)}},reset:function(){var t=this;clearInterval(t.timeout);var s=this.el.attr("id");this.el.after('<span id="'+s+'"/>'),this.el.remove(),"undefined"!=typeof this.cursor&&this.cursor.remove(),t.options.resetCallback()}},t.fn.typed=function(o){return this.each(function(){var e=t(this),i=e.data("typed"),r="object"==typeof o&&o;i||e.data("typed",i=new s(this,r)),"string"==typeof o&&i[o]()})},t.fn.typed.defaults={strings:["These are the default values...","You know what you should do?","Use your own!","Have a great day!"],typeSpeed:0,startDelay:0,backSpeed:0,backDelay:500,loop:!1,loopCount:!1,showCursor:!0,cursorChar:"|",attr:null,contentType:"html",callback:function(){},preStringTyped:function(){},onStringTyped:function(){},resetCallback:function(){}}}(window.jQuery);
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Bharat Kumar Singh 2017</p>
-            <a href="google3256296f979fcf0c.html"></a>
-        </div>
-    </footer>
+            $("#type").typed({
+                strings: ["<span style='color: black'>designer</span>", "<span style='color: black'>developer</span>", "<span style='color: black;'>engineer</span>"],
+                        typeSpeed: 50,
+                        //stringstops: [41, 41, 41],
+                        backDelay: 2000,
+                        showCursor: true,
+                        loop: false,
+                        contentType: 'html', // or text
+                        // defaults to false for infinite loop
+                        loopCount: false,
+            });
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/tether/tether.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+            var delayMillis = 8500; //8.5 seconds
+            setTimeout(function() {
+              $(".vira-btn").addClass("bigger");
+              $(".hidden-arrow").removeClass("hidden-arrow").addClass("visible-arrow");
+            }, delayMillis);
+            
+        </script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/portfolioJS/portfolio.min.js"></script>
-
-</body>
-
+    </body>
 </html>
