@@ -1,5 +1,6 @@
 var gulp = require('gulp')
 // Requires the gulp-sass plugin
+var bundle = require('gulp-bundle-assets')
 var sass = require('gulp-sass')
 var autoprefixer = require('gulp-autoprefixer')
 var minifycss = require('gulp-uglifycss') // Minifies CSS files.
@@ -51,15 +52,21 @@ gulp.task('sass', function () {
     .pipe(gulp.dest(output))
     .pipe(browserSync.stream())
 })
+gulp.task('bundle', function() {
+  return gulp.src('./bundle.config.js')
+    .pipe(bundle())
+    .pipe(gulp.dest('./public'));
+});  
 gulp.task('serve', ['sass'], function () {
   browserSync.init({
     server: './',
     injectChanges: true
   })
-
   gulp.watch(input, ['sass'])
   gulp.watch('*.html').on('change', browserSync.reload)
   gulp.watch('js/*.js').on('change', browserSync.reload)
 })
 
 gulp.task('default', ['serve'])
+//gulp.task('default', ['bundle'])
+

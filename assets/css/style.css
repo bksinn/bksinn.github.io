@@ -339,7 +339,7 @@ section {
 
 /*Home page*/
 .header {
-  background-image: url(../images/malibu-compressor.jpg);
+  background-image: url(../assets/images/malibu-compressor.jpg);
   height: 100%;
   background-size: cover;
   background-position: center;
