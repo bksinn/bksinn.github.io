@@ -24,21 +24,21 @@ $(document).ready(function() {
 					console.log("REsume clicked");
 					$('html,body').animate({
 		                 //scrollTop: (target.offset().top - 452)
-						 scrollTop: (target.offset().top - 300)
+						 scrollTop: (target.offset().top - 452)
 		            }, 1000);
 		            return false;
 				}
 				if (this.hash.slice(1 == "workstation-slider")) {
 					$('html,body').animate({
 		                 //scrollTop: (target.offset().top - 452)
-						 scrollTop: (target.offset().top - 200)
+						 scrollTop: (target.offset().top - 300)
 		            }, 1000);
 		            return false;					
 				}
 		        else if (target.length) {
 		             $('html,body').animate({
 		                 //scrollTop: (target.offset().top - 452)
-						 scrollTop: (target.offset().top - 300)
+						 scrollTop: (target.offset().top - 450)
 		            }, 1000);
 		            return false;
 		        	}
