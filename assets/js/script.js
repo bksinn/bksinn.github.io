@@ -19,12 +19,30 @@ $(document).ready(function() {
 
 		        var target = $(this.hash);
 		        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		           if (target.length) {
-		             $('html,body').animate({
-		                 scrollTop: (target.offset().top - 452)
+				console.log(this.hash.slice(1));
+				if (this.hash.slice(1) == "resume") {
+					console.log("REsume clicked");
+					$('html,body').animate({
+		                 //scrollTop: (target.offset().top - 452)
+						 scrollTop: (target.offset().top - 300)
 		            }, 1000);
 		            return false;
-		        }
+				}
+				if (this.hash.slice(1 == "workstation-slider")) {
+					$('html,body').animate({
+		                 //scrollTop: (target.offset().top - 452)
+						 scrollTop: (target.offset().top - 200)
+		            }, 1000);
+		            return false;					
+				}
+		        else if (target.length) {
+		             $('html,body').animate({
+		                 //scrollTop: (target.offset().top - 452)
+						 scrollTop: (target.offset().top - 300)
+		            }, 1000);
+		            return false;
+		        	}
+					
 		    }
 		});
 
