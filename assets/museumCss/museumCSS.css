@@ -36,7 +36,7 @@ h1 {
   float: left;
   display: inline; }
   h1 a {
-    background-image: url("../../imgs/museumImgs/logo.jpg");
+    background-image: url("../museumImgs/logo.jpg");
     height: 105px;
     width: 381px;
     display: block; }
@@ -89,7 +89,7 @@ input[type="text"] {
 
 .banner {
   background-size: 100%;
-  background-image: url("../../imgs/museumImgs/banner.jpg");
+  background-image: url("../museumImgs/banner.jpg");
   background-repeat: no-repeat;
   border-radius: 5px;
   color: white;

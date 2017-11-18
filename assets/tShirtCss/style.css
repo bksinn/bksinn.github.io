@@ -113,13 +113,13 @@ h2 {
   z-index: -1; }
 
 .shirt-blue {
-  background-image: url("../../imgs/tShirtImgs/shirt_blue.jpg"); }
+  background-image: url("../tShirtImgs/shirt_blue.jpg"); }
 
 .shirt-pink {
-  background-image: url("../../imgs/tShirtImgs/shirt_pink.jpg"); }
+  background-image: url("../tShirtImgs/shirt_pink.jpg"); }
 
 .shirt-yellow {
-  background-image: url("../../imgs/tShirtImgs/shirt_yellow.jpg"); }
+  background-image: url("../tShirtImgs/shirt_yellow.jpg"); }
 
 .bottom-options {
   border-right: 2px solid #5CA4D7;
@@ -291,7 +291,7 @@ h2 {
   z-index: 1;
   padding: 1em; }
   .dropdown-content .shirt-sizes {
-    background-image: url("../../imgs/tShirtImgs/shirt_icon.svg");
+    background-image: url("../tShirtImgs/shirt_icon.svg");
     background-repeat: no-repeat;
     background-position: center;
     height: 3.5em;
