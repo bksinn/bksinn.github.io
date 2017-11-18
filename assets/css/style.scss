@@ -1084,3 +1084,58 @@ body {
   }
 }
 
+#projects .mobile-message {
+	display: none;
+}
+#projects .fa-chevron-left {
+	margin-right: 25px;
+}
+
+#projects .fa-chevron-right {
+	margin-left: 25px;
+}
+
+@media (min-width: 768px) {
+	.about {
+		.col-sm-offset-2 {
+			margin-left: 0;
+		}
+		.col-sm-8 {
+			width: 100%;
+		}
+	} 
+}
+
+@media (max-width: 768px) {
+	body:before {
+		display: none;
+	}
+	body .entries .entry .title.big:before, body .entries .entry .title:before {
+		display: none;
+	}
+
+	body .entries .entry {
+		width: 100%;
+		float: none;
+		padding: 0;
+		clear: none;
+		text-align: center;
+	}
+
+	body .entries .entry:nth-child(2n) {
+		text-align: center; 
+		float: none; 
+	}
+	body .entries .entry:not(:first-child) {
+    	margin-top: 35px;
+	}
+	#resume .container {
+		margin-top: -50px;
+	}
+
+	#projects .mobile-message {
+		display: block;
+	}
+}
+
+

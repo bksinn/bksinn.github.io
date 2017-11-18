@@ -1,0 +1,81 @@
+/*ULTRABOOk/TABLET DISPLAY 1366 X 768*/
+@media only screen and (min-width: 1261px) and (max-width: 1679px) {
+
+  .wrapper {
+    margin: 3rem 5rem;
+  }
+
+  .wrapper-body{
+    float: none;
+    width: 100%;
+  }
+
+  nav {
+    p {
+      padding: 0 2rem;
+    }
+  }
+
+  .banner {
+    height: 20%;
+
+    h2 {
+      font-size: 4rem;
+    }
+  }
+
+  .sideLinks {
+    display: none;
+  }
+
+  .side-links-bottom {
+    display: inline-block;
+  }
+  
+  .grayBox {
+    bottom: 0%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    .aboutDiv {
+    position: relative;
+
+      .contact_info {
+        position: relative;
+    }
+      .personal_info {
+        position: relative;
+    }
+  }
+    .btn {
+      position: relative;
+    }
+  }
+
+  .membership_info {
+    position: relative;
+  }
+
+  .darker_gray_box {
+    position: relative;
+  }
+
+  .radioOptions {
+    position: relative;
+    top: 0;
+  }
+  .benefitsDiv {
+    width: auto;
+    position: relative;
+  }
+  footer {
+    position: relative;
+    top: 0%;
+    height: 14rem;
+    padding: 1rem 10rem;
+    a {
+      padding: 1rem;
+      line-height: 1rem;
+    }
+  }
+}
