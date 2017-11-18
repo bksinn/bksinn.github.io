@@ -9,12 +9,7 @@ module.exports = {
         './assets/js/jquery.magnific-popup.min.js',
         './assets/js/script.js',    
       ],
-      //styles: './content/**/*.css'
       styles: [
-          //'./assets/css/bootstrap.min.css',
-          //'./assets/css/bootstrap-theme.min.css',
-        //   './assets/css/owl.carousel.css.css',
-        //   './assets/css/owl.theme.default.min.css',
         //   './assets/css/magnific-popup.css',
           './assets/css/style.css'
       ]          
